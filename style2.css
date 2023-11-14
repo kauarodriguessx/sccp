@@ -1,0 +1,22 @@
+body {
+   background-image: url(https://i.pinimg.com/originals/ea/60/7d/ea607dba4d25d8d737600c2d5427701a.jpg);
+}
+
+.card {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.568);
+    color: rgb(0, 0, 0);
+    
+}
+
+.card-header {
+    background-color:rgba(0, 0, 0, 0.993);
+    color: rgb(255, 252, 252);
+
+ 
+}
+.card-body{
+    background-color: rgba(0, 0, 0, 0.356);
+    
+}
+
+

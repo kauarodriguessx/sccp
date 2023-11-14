@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <h1>Area do Produto</h1>
+            </div>
+            <div class="card-body">
+                <form action="sucesso.html">
+                    <h5>Dados do produto:</h5>
+                    <hr>                    
+
+                    <label>Quantidade do produto:</label><br>
+                    <input type="number" class="form-control w-50"><br>
+
+                    <label>Tamanho:</label>
+                    <select class="form-control">
+                        <option>P</option>
+                        <option>M</option>
+                        <option>G</option>
+                        <option>GG</option>
+
+                    </select>
+                    <br>
+
+                    <label>Selcione o modelo</label>
+                    <select class="form-control">
+                        <option>Camisa III Torcedor-Masculino</option>
+                        <option>Camisa III Torcedor-Feminino</option>
+                        <option>Jaqueta Academy III Masculino</option>
+                    </select>
+                   <br>
+                    
+                    <h5>Dados de Entrega</h5>
+                    <hr>
+                    
+                    <label>Agendar entrega para data:</label><br>
+                    <input type="datetime-local" class="form-control w-50"><br>
+
+                    <label>Selecione o frete:</label><br>
+                    <select class="form-control">
+                        <option>PAC</option>
+                        <option>Sedex</option>
+                        <option>Sedex 10</option>
+                    </select><br>
+  
+                    <label>Observações:</label>
+                    <textarea class="form-control" placeholder="Escreva aqui observações sobre o produto."></textarea><br>
+
+                    <hr>
+                    <h5>Dados de Pagamento</h5>
+                    <hr>
+
+                    <label>Número do cartão:</label><br>
+                    <input type="text" class="form-control w-50 w-50"><br>
+
+                    <label>CVV</label><br>
+                    <input type="number"><br>
+                    <br>
+
+                    <label>Quantidade de Parcelas</label>
+                    <select class="form-control">
+                    <option>1x</option>
+                    <option>2x</option>
+                    <option>3x</option>
+                    <option>4x</option>
+                    <option>5x</option>
+                    <option>6x</option>
+                    <option>7x</option>
+                    <option>8x</option>
+                    <option>9x</option>
+                    <option>10x</option></select><br>
+
+
+
+                    
+                    <input type="checkbox"> Quero receber promoções no e-mail informado<br><br>
+                    
+                    
+                    <input type="reset" value="Limpar" class="btn btn-danger w-100"><br><br>
+                    <input type="submit" value="Enviar e cadastrar" class="btn btn-success w-100"><br><br>
+                
+                    
+				</form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</html>
